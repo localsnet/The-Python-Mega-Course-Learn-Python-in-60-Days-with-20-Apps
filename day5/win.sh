@@ -1,0 +1,1 @@
+add action=drop chain=forward comment="windows update Drop" layer7-protocol="windows update" src-address=192.168.xxx.0/24

@@ -1,0 +1,3 @@
+name = input("What is yor name? :")
+
+print(name.capitalize())
