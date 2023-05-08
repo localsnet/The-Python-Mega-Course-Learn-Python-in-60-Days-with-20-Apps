@@ -1,5 +1,0 @@
-again hard
-REST API
-test taskone more
-this a task one
-clean code
