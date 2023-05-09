@@ -8,6 +8,10 @@ def make_archive(filepaths, dest_dir):
             filepath = pathlib.Path(filepath)
             archive.write(filepath, arcname=filepath.name)
 
+def extract_archive(filepaths, dest_dir):
+    with zipfile.ZipFile(filepaths, 'r') as file:
+       file.extractall(path=dest_dir)
+
 
 if __name__ == "__main__":
     make_archive(filepaths=["ex.py", "be.py"], dest_dir="dest")
