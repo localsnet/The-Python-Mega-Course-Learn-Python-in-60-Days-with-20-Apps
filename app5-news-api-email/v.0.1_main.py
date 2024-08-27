@@ -5,7 +5,7 @@ from day22_23 .send_email import send_email
 api_key = ""
 url = "https://newsapi.org/v2/everything?q=linux&" \
       "sortBy=publishedAt&apiKey=" \
-      "890603a55bfa47048e4490069ebee18c"
+      "KEY"
 make_list = []
 message = ""
 
